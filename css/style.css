@@ -15,15 +15,25 @@ ul{
 /*use a dot to access the class*/
 /*id seectors*/
 
-.Hobby{background-color:burlywood;}
+.Hobby{background-color:burlywood;border: 2px solid yellow;
+    padding: 6px;
+    margin: 20px;
+    }
 
 
 
-.fav{
-    background-color:rosybrown;}
 
-    .seti{background-color:silver;}
-    .pic1{float:right;}
+
+    .seti{background-color:silver;border: 2px solid white ;
+        padding: 6px;
+        margin: 20px;
+        }
+    .pic1{float:inherit;}
+    .h2{text-align:justify;
+    direction:rtl;unicode-bidi:didi-override;
+    
+    
+    }
     
     
     
@@ -45,5 +55,17 @@ margin:0;
     border:5px;
     margin:0;
    } 
+    .test-box{ border: 2px solid gold;
+        padding: 6px;
+        margin: 20px;
+        background-color: yellow;}
     
+    .fav{border: 2px solid pink;
+        padding: 6px;
+        margin: 20px;
+        background-color: rosybrown;}
     
+    .food {border: 2px solid yellow;
+        padding: 6px;
+        margin: 20px;
+        background-color:goldenrod;}
